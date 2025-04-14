@@ -29,7 +29,7 @@ const IndirectBusiness = () => {
         }}
       />
 
-      <Container fluid className={`p-3 ${styles.mainContainer}`}>
+      <Container fluid className={`p-4 ${styles.mainContainer}`}>
         <Row className="justify-content-between align-items-start">
           <Col md={8}>
             <h1 className={`${styles.customHeading}`}>

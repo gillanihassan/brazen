@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 const Lethal = () => {
   return (
     <div className={`${styles.mainContainer}`}>
-      <Container fluid className="p-3">
+      <Container fluid className="p-4">
         {/* Heading */}
         <div style={{ marginBottom: "50px", marginTop: "1.5rem" }}>
           <h1 className={`${styles.customHeading}`}>

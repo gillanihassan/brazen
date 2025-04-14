@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 const CoralRoots = () => {
   return (
-    <Container fluid className={`p-3 ${styles.mainContainer}`}>
+    <Container fluid className={`p-4 ${styles.mainContainer}`}>
       <Row className=" px-4">
         {/* Left Column - Heading */}
         <Col md={6}>

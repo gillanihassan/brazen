@@ -7,7 +7,7 @@ import styles from "./styles.module.css";
 export default function Trade() {
   return (
     <div style={{ backgroundColor: "#D9D9D9" }}>
-      <Container fluid className={`p-5 ${styles.mainContainer}`}>
+      <Container fluid className={`p-4 ${styles.mainContainer}`}>
         {/* Top Row with 3 columns */}
         <Row>
           {/* Column 1 */}

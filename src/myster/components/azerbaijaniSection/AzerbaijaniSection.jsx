@@ -6,7 +6,7 @@ import imageTwo from "../../../assets/images/azerbaijan/imageTwo.png";
 
 const AzerbaijaniSection = () => {
   return (
-    <Container fluid className={`p-3 ${styles.mainContainer}`}>
+    <Container fluid className={`p-4 ${styles.mainContainer}`}>
       {/* Heading */}
       <Row>
         <Col>

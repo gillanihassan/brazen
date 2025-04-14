@@ -17,12 +17,12 @@ import Trade from "../components/tradeMap/Trade";
 import Rebranding from "../components/rebranding/Rebranding";
 import Timeline from "../components/timeLine/TimeLine";
 import CertificateSection from "../components/certificateSection/Certificate";
-// import HeroSection from "../components/heroSection/HeroSection";
+import HeroSection from "../components/heroSection/HeroSection";
 
 function Mystery() {
   return (
     <div>
-      {/* <HeroSection /> */}
+      <HeroSection />
       <NewsSec />
       <BusinessSection />
       <AffiliateCompany />

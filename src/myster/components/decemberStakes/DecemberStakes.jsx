@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 const DecemberStakes = () => {
   return (
-    <Container fluid className={`p-3 ${styles.mainContainer}`}>
+    <Container fluid className={`p-4 ${styles.mainContainer}`}>
       {/* Heading */}
       <h1 className={` ${styles.customHeading}`}>
         IN DECEMBER, THE STAKES <br />

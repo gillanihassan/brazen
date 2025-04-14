@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 function NewsSec() {
   return (
-    <div className={`${styles.mainDiv}`}>
+    <div className={`p-4 ${styles.mainDiv}`}>
       <Container fluid className={`${styles.mainContainer}`}>
         <Row>
           <Col md={6}>
