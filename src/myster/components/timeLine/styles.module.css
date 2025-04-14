@@ -1,0 +1,19 @@
+.mainContainer{
+  /* border: 3px solid red; */
+  background-color: #1E1C1D;
+}
+.customHeading{
+  font-size: 100px;
+  font-weight: 500;
+  color: #376BD1;
+  letter-spacing: -3px;
+}
+.customPara{
+  color: #D9D9D9;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 735px;
+  text-align: center;
+  margin: auto;
+  line-height: 1.4rem;
+}

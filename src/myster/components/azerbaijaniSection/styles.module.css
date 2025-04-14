@@ -1,0 +1,27 @@
+.mainContainer{
+  /* border: 6px solid rgb(202, 156, 5); */
+  background-color: #D9D9D9;
+}
+.customHeadingOne{
+  font-size: 100px;
+  font-weight: 500;
+  color: #1E1C1D;
+  letter-spacing: -5px;
+}
+.customHeadingTwo{
+  font-size: 90px;
+  font-weight: 500;
+  color: #376BD1;
+}
+.customHeadingThree{
+  font-size: 85px;
+  font-weight: 500;
+  color: #376BD1;
+}
+.customPara{
+  max-width: 405px;
+  margin-top: 10rem;
+  margin-left: 3rem;
+  font-size: 18px;
+  font-weight: 500;
+}

@@ -1,0 +1,47 @@
+.mainDiv{
+  /* border: 3px solid rgb(255, 0, 157); */
+  background-color: #D9D9D9;
+}
+.customHeading{
+  font-size: 120px;
+  letter-spacing: -9px;
+    word-spacing: 17px;
+    font-weight: 500;
+}
+.customPara{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+.boatDiv{
+  margin-top: 16rem;
+}
+.bgPrimaryOne{
+  background-color: #376BD1;
+  height: 47px;
+  width: 99px;
+}
+.bgPrimaryTwo{
+  background-color: #376BD1;
+  height: 47px;
+  width: 223px;
+  margin-top: 1rem;
+}
+.bgPrimaryThree{
+  background-color: #376BD1;
+  height: 47px;
+  width: 569px;
+  margin-top: 1rem;
+}
+.bgPrimaryFour{
+  background-color: #376BD1;
+  height: 47px;
+  width: 816px;
+  margin-top: 1rem;
+}
+.bgPrimaryFive{
+  background-color: #376BD1;
+  height: 47px;
+  width: 1200px;
+  margin-top: 1rem;
+}

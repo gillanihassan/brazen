@@ -1,0 +1,15 @@
+.mainContainer{
+  /* border: 4px solid red; */
+  background-color: #376BD1;
+}
+.customHeading{
+  font-size: 12.5rem;
+  font-weight: 500;
+  color: #1E1C1D;
+  line-height: 11rem;
+}
+.customImage{
+  max-width: 555px;
+  max-height: 379px;
+  margin-top: 26rem;
+}

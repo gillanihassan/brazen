@@ -1,0 +1,52 @@
+.mainContainer{
+  /* border: 3px solid rgb(255, 0, 0); */
+}
+.imageOne{
+  width: 322px;
+  height: 278px;
+}
+.paraDiv{
+  margin-top: 2.5rem;
+}
+.customPara{
+  color: #1E1C1D;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 483px;
+}
+.mapOne{
+  width: 319px;
+  height: 490px;
+  margin-top: 3rem;
+}
+.mapTwo{
+  width: 420px;
+  height: 474px;
+  margin-top: 3rem;
+}
+.headingOne{
+  color: #E56028;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+.headingTwo{
+  color: #376BD1;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+.paraOne{
+  color: #1E1C1D;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+.paraTwo{
+  color: #1E1C1D;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 3.3rem;
+}

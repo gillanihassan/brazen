@@ -1,0 +1,42 @@
+.customDiv{
+  border: #376BD1;
+}
+.customHeading{
+  color: #1E1C1D;
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: -3px;
+}
+.paraOne{
+  color: #1E1C1D;
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 466px;
+  line-height: 1.5rem;
+}
+.customHeadingTwo{
+  color: #376BD1;
+  font-size: 180px;
+  font-weight: 600;
+}
+.customParaTwo{
+  color: #376BD1;
+  max-width: 466px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+.customParaTwo{
+  color: #376BD1;
+  max-width: 466px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+.customParaThree{
+  color: #376BD1;
+  max-width: 466px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4rem;
+}

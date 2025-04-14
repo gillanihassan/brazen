@@ -1,0 +1,29 @@
+.mainDiv{
+  /* border: 2px solid red; */
+  background-color: #1E1C1D;
+}
+.customHeadingOne{
+  color: #D9D9D9;
+  font-size: 100px;
+  font-weight: 500;
+}
+.customHeadingTwo{
+  color: #D9D9D9;
+  font-size: 100px;
+  font-weight: 500;
+}
+.customImage{
+  width: 75px;
+  height: 51px;
+  margin-top: 2.9rem;
+}
+.customImageTwo{
+  max-width: 720px;
+  max-height: 480px;
+}
+.customPara{
+  max-width: 483px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #D9D9D9;
+}

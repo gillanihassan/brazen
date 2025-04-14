@@ -1,0 +1,37 @@
+.mainContainer{
+  /* border: 3px solid rgb(68, 0, 255); */
+  background-color: #1E1C1D;
+}
+.columnLeft{
+  padding-top: 9rem;
+  padding-bottom: 13rem;
+  border-right: 1px solid #D9D9D9;
+}
+.columnRight{
+  padding-top: 9rem;
+  padding-bottom: 13rem;
+}
+.customHeadingOne{
+  font-size: 15.75rem;
+  color: #376BD1;
+  letter-spacing: -12px;
+}
+.customHeadingTwo{
+  font-size: 15.75rem;
+  color: #376BD1;
+  letter-spacing: -12px;
+}
+.customParaOne{
+  color: #D9D9D9;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.9rem;
+  word-spacing: -3px;
+}
+.customParaTwo{
+  color: #D9D9D9;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.9rem;
+  word-spacing: -3px;
+}
