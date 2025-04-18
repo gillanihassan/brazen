@@ -9,30 +9,24 @@ function BusinessSection() {
   return (
     <Container className={`p-4 ${styles.mainContainer}`} fluid>
       <Row>
-        <Col>
-          <h2 className={`${styles.customHeading}`}>
-            IN REALITY, BEHIND NORD AXIS WERE <br /> TWO AZERBAIJANI BUSINESMEN,
-          </h2>
-        </Col>
+        <h2 className={`${styles.customHeading}`}>
+          IN REALITY, BEHIND NORD AXIS WERE <br /> TWO AZERBAIJANI BUSINESMEN,
+        </h2>
       </Row>
 
       <Row className="align-items-center mt-2">
-        <Col xs="auto">
-          <Image src={Tahir} className={`${styles.imageOne}`} />
-        </Col>
-        <Col xs="auto">
-          <h2 className={`text-uppercase ${styles.headingOne}`}>
+        <Col xs="auto" className="d-flex align-items-center">
+          <Image src={Tahir} className={styles.imageOne} />
+          <p className={`text-uppercase mb-0 ms-2 ${styles.paraOne}`}>
             Tahir Garayev <span className={styles.andColor}>And</span>
-          </h2>
+          </p>
         </Col>
 
-        <Col xs="auto">
-          <Image src={Etibar} className={`${styles.imageTwo}`} />
-        </Col>
-        <Col xs="auto">
-          <h2 className={`text-uppercase ${styles.headingTwo}`}>
+        <Col xs="auto" className="d-flex align-items-center">
+          <Image src={Etibar} className={styles.imageTwo} />
+          <p className={`text-uppercase mb-0 ms-2 ${styles.paraTwo}`}>
             Etibar Eyyub.
-          </h2>
+          </p>
         </Col>
       </Row>
 
@@ -45,11 +39,7 @@ function BusinessSection() {
           </p>
         </Col>
         <Col md={4} className="text-end">
-          <Image
-            src={Card}
-            fluid
-            style={{ maxWidth: "398px", maxHeight: "250px", marginTop: "22px" }}
-          />
+          <Image src={Card} fluid />
         </Col>
       </Row>
     </Container>

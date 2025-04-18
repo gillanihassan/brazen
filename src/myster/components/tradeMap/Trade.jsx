@@ -52,13 +52,7 @@ export default function Trade() {
           <Col md={4}>
             <Image src={mapOne} alt="Map" className={`${styles.mapOne}`} />
 
-            <div
-              style={{
-                textAlign: "center",
-                marginTop: "5rem",
-                borderLeft: "3px solid #E56028",
-              }}
-            >
+            <div className={`${styles.mapDivOne}`}>
               <h2 className={`${styles.headingOne}`}>
                 russian ports of origin
               </h2>
@@ -71,13 +65,7 @@ export default function Trade() {
           <Col md={4}>
             <Image src={mapTwo} alt="Map" className={`${styles.mapTwo}`} />
 
-            <div
-              style={{
-                textAlign: "center",
-                marginTop: "5rem",
-                borderLeft: "3px solid #376BD1",
-              }}
-            >
+            <div className={`${styles.mapDivTwo}`}>
               <h2 className={`${styles.headingTwo}`}>
                 COUNTRIES OF DESTINATION
               </h2>

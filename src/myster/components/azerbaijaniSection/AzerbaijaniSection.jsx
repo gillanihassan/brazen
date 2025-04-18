@@ -9,37 +9,26 @@ const AzerbaijaniSection = () => {
     <Container fluid className={`p-4 ${styles.mainContainer}`}>
       {/* Heading */}
       <Row>
-        <Col>
-          <h2 className={`${styles.customHeadingOne}`}>
-            OVER THE NEXT FEW YEARS, MORE <br />
-            AZERBAIJANI NATIONALS WERE HIRED:
-          </h2>
-        </Col>
+        <h2 className={`${styles.customHeadingOne}`}>
+          OVER THE NEXT FEW YEARS, MORE <br />
+          AZERBAIJANI NATIONALS WERE HIRED:
+        </h2>
       </Row>
 
       {/* Profile and Description */}
-      <div style={{ marginTop: "11.25rem" }}>
+      <div className={`${styles.customDiv}`}>
         <Row className="mt-4 align-items-start">
           {/* Left - Profiles */}
           <Col md={6}>
-            <Row className="align-items-center mb-3">
-              <Col xs={2}>
-                <Image src={imageOne} />
-              </Col>
-              <Col>
-                <h3 className={`${styles.customHeadingTwo}`}>TALAT SAFAROV</h3>
-              </Col>
-            </Row>
-            <Row className="align-items-center">
-              <Col xs={2}>
-                <Image src={imageTwo} />
-              </Col>
-              <Col>
-                <h3 className={`${styles.customHeadingThree}`}>
-                  AHMED KARIMOV
-                </h3>
-              </Col>
-            </Row>
+            <div className="d-flex align-items-center mb-3">
+              <Image src={imageOne} className="me-4" />
+              <h3 className={` ${styles.customHeadingTwo}`}>TALAT SAFAROV</h3>
+            </div>
+
+            <div className="d-flex align-items-center">
+              <Image src={imageTwo} className="me-4" />
+              <h3 className={` ${styles.customHeadingThree}`}>AHMED KARIMOV</h3>
+            </div>
           </Col>
 
           {/* Right - Paragraph */}

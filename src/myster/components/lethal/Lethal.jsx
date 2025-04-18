@@ -18,11 +18,7 @@ const Lethal = () => {
         {/* Row with image + text */}
         <Row className="align-items-center">
           <Col md={6}>
-            <Image
-              src={shipImage}
-              fluid
-              style={{ maxWidth: "860px", height: "390px" }}
-            />
+            <Image src={shipImage} fluid />
           </Col>
           <Col md={6}>
             <p className={`${styles.customPara}`}>

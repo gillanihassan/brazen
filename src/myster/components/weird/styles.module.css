@@ -7,11 +7,6 @@
   font-size: 100px;
   font-weight: 500;
 }
-.customHeadingTwo{
-  color: #D9D9D9;
-  font-size: 100px;
-  font-weight: 500;
-}
 .customImage{
   width: 75px;
   height: 51px;
@@ -26,4 +21,41 @@
   font-size: 15px;
   font-weight: 400;
   color: #D9D9D9;
+}
+.leftColumn{
+  margin-top: 1rem;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1400px) {
+  .customHeadingOne{
+    font-size: 60px;
+  }
+  .customImageTwo{
+    max-width: 375px;
+    max-height: 390px;
+  }
+}
+
+@media (max-width: 891px) {
+  .customHeadingOne{
+    font-size: 40px;
+  }
+  .customImageTwo{
+    max-width: 300px;
+    max-height: 390px;
+  }
+}
+
+@media (max-width: 499px) {
+  .customHeadingOne{
+    font-size: 20px;
+  }
+  .customImageTwo{
+    max-width: 350px;
+    max-height: 390px;
+  }
+  .customImage{
+    margin-top: 0.9rem;
+  }
 }

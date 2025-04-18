@@ -46,7 +46,7 @@ const IndirectBusiness = () => {
           </Col>
         </Row>
 
-        <div style={{ marginTop: "20rem" }}>
+        <div className={`${styles.customDiv}`}>
           <Row className="mt-5">
             <Col md={4}>
               <p className={`${styles.customPara}`}>

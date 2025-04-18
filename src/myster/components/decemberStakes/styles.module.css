@@ -20,3 +20,80 @@
   width: 696px;
   height: 389px;
 }
+
+@media (max-width: 1400px) {
+  .customHeading{
+    font-size: 80px;
+    line-height: 6rem;
+  }
+  .customImage{
+    width: 460px;
+    height: 343px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .customHeading{
+    font-size: 66px;
+    line-height: 5rem;
+  }
+  .customImage{
+    width: 375px;
+    height: 330px;
+  }
+  .customParaDiv{
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 937px) {
+  .customHeading{
+    font-size: 51px;
+    line-height: 4rem;
+  }
+  .customImage{
+    width: 330px;
+    height: 300px;
+  }
+  .customParaDiv{
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customHeading{
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .customImage{
+    width: 475px;
+    height: 389px;
+  }
+  .customParaDiv{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 518px) {
+  .customHeading{
+    font-size: 30px;
+    line-height: 2rem;
+  }
+  .customImage{
+    width: 415px;
+    height: 300px;
+  }
+  .customParaDiv{
+    margin-top: 40px;
+  }
+}
+@media (max-width: 455px) {
+
+  .customImage{
+    width: 335px;
+    height: 281px;
+  }
+  .customParaDiv{
+    margin-top: 30px;
+  }
+}

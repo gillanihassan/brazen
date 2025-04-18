@@ -19,10 +19,20 @@
   height: 490px;
   margin-top: 3rem;
 }
+.mapDivOne{
+  text-align: center;
+  margin-top: 5rem;
+  border-left: 3px solid#E56028;
+}
 .mapTwo{
   width: 420px;
   height: 474px;
   margin-top: 3rem;
+}
+.mapDivTwo{
+  text-align: center;
+  margin-top: 5rem;
+  border-left: 3px solid #376BD1;
 }
 .headingOne{
   color: #E56028;
@@ -49,4 +59,47 @@
   font-size: 18px;
   font-weight: 500;
   margin-top: 3.3rem;
+}
+
+@media (max-width: 1200px) {
+  .mapOne{
+    width: 300px;
+  }
+  .mapTwo{
+    width: 320px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mapOne{
+    width: 240px;
+    margin-top: 8rem;
+  }
+  .mapTwo{
+    width: 230px;
+    margin-top: 8rem;
+  }
+  .headingOne{
+    font-size: 30px;
+  }
+  .paraOne{
+    margin-top: 1rem;
+  }
+  .headingTwo{
+    font-size: 34px;
+  }
+  .paraTwo{
+    margin-top: 1.3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .mapOne{
+    width: 319px;
+    margin-top: 2rem;
+  }
+  .mapTwo{
+    width: 319px;
+    margin-top: 2rem;
+  }
 }

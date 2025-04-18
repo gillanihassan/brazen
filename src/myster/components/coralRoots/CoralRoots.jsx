@@ -6,18 +6,14 @@ import styles from "./styles.module.css";
 const CoralRoots = () => {
   return (
     <Container fluid className={`p-4 ${styles.mainContainer}`}>
-      <Row className=" px-4">
-        {/* Left Column - Heading */}
-        <Col md={6}>
-          <h1 className={`${styles.customHeading}`}>
-            CORAL’ <br /> ROOTS
-          </h1>
-        </Col>
+      <Row>
+        <h1 className={`${styles.customHeading}`}>
+          CORAL’ <br /> ROOTS
+        </h1>
+      </Row>
 
-        {/* Right Column - Image */}
-        <Col md={6} className="text-end">
-          <Image src={CoralImage} className={`${styles.customImage}`} />
-        </Col>
+      <Row className="d-flex justify-content-end">
+        <Image src={CoralImage} fluid className={`  ${styles.customImage}`} />
       </Row>
     </Container>
   );

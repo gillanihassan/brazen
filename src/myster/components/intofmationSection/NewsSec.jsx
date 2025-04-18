@@ -5,34 +5,41 @@ import styles from "./styles.module.css";
 
 function NewsSec() {
   return (
-    <div className={`p-4 ${styles.mainDiv}`}>
-      <Container fluid className={`${styles.mainContainer}`}>
-        <Row>
-          <Col md={6}>
-            <h3 className={`${styles.customHeading}`}>
-              NINE DAYS BEFORE RUSSIA BEGAN ITS <br /> FULL-SCALE INVASION OF
-              UKRAINE ON <br /> FEB. 24, 2022, A MAN FROM BELIZE <br />
-              ESTABLISHED NORD AXIS, A NEW <br />
-              SHIPPING COMPANY, IN HONG KONG.
-            </h3>
-            <p className={`${styles.customParaOne}`}>
-              Coincidental timing? Maybe.
-            </p>
-            <p className={`${styles.customParaTwo}`}>
-              Soon after, Nord Axis became a major player in the Russian oil
-              trade. Meanwhile, the Belizean man had no idea what the company
-              was or why it had been formed.
-            </p>
-          </Col>
-          <Col
-            md={6}
-            className="d-flex align-items-center justify-content-center"
-          >
-            <Image src={NewsImage} className={`${styles.customImage}`} />
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    <Container fluid className={`p-5 ${styles.mainContainer}`}>
+      <Row>
+        <Col
+          sm={12}
+          md={6}
+          className="d-flex flex-column justify-content-center mt-5"
+        >
+          <p className={`${styles.topPara}`}>
+            NINE DAYS BEFORE RUSSIA BEGAN ITS <br /> FULL-SCALE INVASION OF
+            UKRAINE ON <br /> FEB. 24, 2022, A MAN FROM BELIZE <br />
+            ESTABLISHED NORD AXIS, A NEW <br />
+            SHIPPING COMPANY, IN HONG KONG.
+          </p>
+          <p className={`mt-3 ${styles.customParaOne}`}>
+            Coincidental timing? Maybe.
+          </p>
+          <p className={`${styles.customParaTwo}`}>
+            Soon after, Nord Axis became a major player in the Russian oil
+            trade. Meanwhile, the Belizean man had no idea what the company was
+            or why it had been formed.
+          </p>
+        </Col>
+        <Col
+          sm={12}
+          md={6}
+          className="d-flex d-md-block align-items-center justify-content-center"
+        >
+          <Image
+            src={NewsImage}
+            fluid
+            className={`${styles.customImage} respon`}
+          />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

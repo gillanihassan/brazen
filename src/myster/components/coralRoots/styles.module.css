@@ -3,13 +3,29 @@
   background-color: #376BD1;
 }
 .customHeading{
-  font-size: 12.5rem;
-  font-weight: 500;
+  font-size: 200px;
   color: #1E1C1D;
   line-height: 11rem;
 }
 .customImage{
-  max-width: 555px;
   max-height: 379px;
-  margin-top: 26rem;
+  width: 555px;
+  margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+  .customHeading{
+    font-size: 138px;
+    line-height: 7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .customHeading{
+    font-size: 95px;
+    line-height: 5rem;
+  }
+  .customImage{
+    margin-top: 2rem;
+  }
 }

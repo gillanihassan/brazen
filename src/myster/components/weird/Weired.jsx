@@ -9,15 +9,20 @@ const Weird = () => {
     <div className={`${styles.mainDiv}`}>
       <Container fluid className="p-4">
         <Row>
-          <Col md={9}>
-            <div style={{ marginBottom: "40px", marginTop: "1rem" }}>
-              <h1 className={`${styles.customHeadingOne}`}>THEN, IT GOT</h1>
-              <h1 className={`${styles.customHeadingTwo}`}>
-                PARTICULARLY WEIRD:
-              </h1>
-            </div>
+          <Col
+            xs={9}
+            sm={9}
+            md={9}
+            lg={9}
+            xl={9}
+            xxl={9}
+            className={`${styles.leftColumn}`}
+          >
+            <h1 className={`${styles.customHeadingOne}`}>
+              THEN, IT GOT <br /> PARTICULARLY WEIRD:
+            </h1>
           </Col>
-          <Col md={3}>
+          <Col xs={3} sm={3} md={3} lg={3} xl={3} xxl={3}>
             <div style={{ textAlign: "right" }}>
               <Image
                 src={flag}

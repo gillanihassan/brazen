@@ -10,7 +10,7 @@ const AffiliateCompany = () => {
     <Container fluid className={`p-4 ${styles.mainContainer}`}>
       <Row>
         {/* LEFT SIDE TEXT */}
-        <Col md={8}>
+        <Col sm={12} md={12} lg={10} xl={10} xxl={10}>
           <p className={`${styles.paraOne}`}>
             At the direction of <strong>Igor Sechin</strong>, CEO of Russia’s
             largest state-owned petroleum company, Garayev and Eyyub built an
@@ -33,25 +33,27 @@ const AffiliateCompany = () => {
         </Col>
 
         {/* RIGHT SIDE IMAGES */}
-        <Col md={4} className="d-flex flex-column align-items-end">
-          {/* Gutseriev */}
+        <Col
+          sm={12}
+          md={12}
+          lg={2}
+          xl={2}
+          xxl={2}
+          className="d-flex flex-column align-items-end align-items-md-center"
+        >
           <div className="d-flex align-items-center mb-4">
-            <div className="text-end me-3 fw-bold text-uppercase">
-              Gutseriev
-            </div>
-            <Image src={imageOne} className={`${styles.imageOne}`} />
+            <div className="text-end me-3 fw-bold text-uppercase">Gutse</div>
+            <Image src={imageOne} />
           </div>
 
-          {/* Putin */}
           <div className="d-flex align-items-center mb-4">
             <div className="text-end me-3 fw-bold text-uppercase">Putin</div>
-            <Image src={imageTwo} className={`${styles.imageTwo}`} />
+            <Image src={imageTwo} />
           </div>
 
-          {/* Sechin */}
           <div className="d-flex align-items-center">
             <div className="text-end me-3 fw-bold text-uppercase">Sechin</div>
-            <Image src={imageThree} className={`${styles.imageT}`} />
+            <Image src={imageThree} />
           </div>
         </Col>
       </Row>

@@ -22,3 +22,41 @@
   font-size: 15px;
   font-weight: 400;
 }
+.customDiv{
+  margin-top: 20rem;
+}
+
+@media (max-width: 1200px) {
+  .customHeading{
+    font-size: 160px;
+    line-height: 9rem;
+  }
+}
+@media (max-width: 992px) {
+  .customHeading{
+    font-size: 105px;
+    line-height: 7rem;
+  }
+  .customDiv{
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .customHeading{
+    font-size: 85px;
+    line-height: 6rem;
+  }
+  .customDiv{
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 455px) {
+  .customHeading{
+    font-size: 70px;
+    line-height: 6rem;
+  }
+  .customDiv{
+    margin-top: 1rem;
+  }
+}

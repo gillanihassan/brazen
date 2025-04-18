@@ -1,0 +1,25 @@
+.customDiv{
+  border: 2px solid red;
+}
+.customImage{
+  width: auto;
+  height: 857px;
+}
+@media (max-width: 992px) {
+  .customImage{
+    width: auto;
+    height: 780px;
+  }
+}
+@media (max-width: 768px) {
+  .customImage{
+    width: auto;
+    height: 650px;
+  }
+}
+@media (max-width: 500px) {
+  .customImage{
+    width: auto;
+    height: 560px;
+  }
+}

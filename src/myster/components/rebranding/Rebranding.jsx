@@ -19,7 +19,7 @@ const Rebranding = () => {
         </Row>
 
         {/* Content Row */}
-        <div style={{ marginTop: "18rem" }}>
+        <div className={`${styles.customDiv}`}>
           <Row className="mt-5">
             <Col md={6}>
               <p className={`${styles.customPara}`}>

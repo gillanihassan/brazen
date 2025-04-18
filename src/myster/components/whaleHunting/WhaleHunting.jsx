@@ -19,48 +19,33 @@ function WhaleHunting() {
           <div className={`${styles.boatDiv}`}>
             <div className="d-flex align-items-center mb-3">
               <div className={`${styles.bgPrimaryOne}`}></div>
-              <Image
-                src={boatOne}
-                style={{ marginLeft: "8px", height: "40px" }}
-              />
+              <Image src={boatOne} className={`${styles.customImage}`} />
             </div>
 
             <div className="d-flex align-items-center mb-3">
               <div className={`${styles.bgPrimaryTwo}`}></div>
-              <Image
-                src={boatTwo}
-                style={{ marginLeft: "8px", height: "40px" }}
-              />
+              <Image src={boatTwo} className={`${styles.customImage}`} />
             </div>
 
             <div className="d-flex align-items-center mb-3">
               <div className={`${styles.bgPrimaryThree}`}></div>
-              <Image
-                src={boatThree}
-                style={{ marginLeft: "8px", height: "40px" }}
-              />
+              <Image src={boatThree} className={`${styles.customImage}`} />
             </div>
 
             <div className="d-flex align-items-center mb-3">
               <div className={`${styles.bgPrimaryFour}`}></div>
-              <Image
-                src={boatFour}
-                style={{ marginLeft: "8px", height: "40px" }}
-              />
+              <Image src={boatFour} className={`${styles.customImage}`} />
             </div>
 
             <div className="d-flex align-items-center mb-3">
               <div className={`${styles.bgPrimaryFive}`}></div>
-              <Image
-                src={boatFive}
-                style={{ marginLeft: "8px", height: "40px" }}
-              />
+              <Image src={boatFive} className={`${styles.customImage}`} />
             </div>
           </div>
         </Col>
 
         {/* Right Column */}
-        <Col md={5} className="p-5 d-flex flex-column align-items-end">
+        <Col md={5} className=" d-flex flex-column align-items-end">
           <div style={{ maxWidth: "555px" }}>
             <p className={`${styles.customPara}`}>
               Whale Hunting has also viewed dozens of internal documents which

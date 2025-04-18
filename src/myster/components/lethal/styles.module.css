@@ -14,3 +14,48 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+@media (max-width: 1400px) {
+  .customHeading{
+    font-size: 155px;
+    line-height: 9rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .customHeading{
+    font-size: 105px;
+    line-height: 6rem;
+  }
+  .customPara{
+    max-width: 557px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customHeading{
+    font-size: 105px;
+    line-height: 6rem;
+  }
+}
+
+@media (max-width: 607px) {
+  .customHeading{
+    font-size: 85px;
+    line-height: 5rem;
+  }
+}
+
+@media (max-width: 493px) {
+  .customHeading{
+    font-size: 72px;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 425px) {
+  .customHeading{
+    font-size: 60px;
+    line-height: 3rem;
+  }
+}

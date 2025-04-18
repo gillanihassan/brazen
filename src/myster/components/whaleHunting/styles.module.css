@@ -45,3 +45,110 @@
   width: 1200px;
   margin-top: 1rem;
 }
+.customImage{
+  margin-left: 8px;
+  height: 40px;
+}
+
+
+@media (max-width: 1400px) {
+  .customHeading{
+    font-size: 108px;
+    max-width: 360px;
+  }
+  .boatDiv{
+    margin-top: 5rem;
+  }
+  .bgPrimaryThree{
+    width: 400px;
+  }
+  .bgPrimaryFour{
+    width: 530px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .bgPrimaryOne{
+    height: 40px;
+    width: 76px;
+  }
+  .bgPrimaryTwo{
+    height: 40px;
+    width: 200px;
+  }
+  .bgPrimaryThree{
+    height: 40px;
+    width: 326px;
+  }
+  .bgPrimaryFour{
+    height: 40px;
+    width: 416px;
+  }
+  .bgPrimaryFive{
+    width: 730px;
+    height: 40px;
+  }
+  .boatDiv{
+    margin-top: 9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .bgPrimaryOne{
+    height: 30px;
+    width: 50px;
+  }
+  .bgPrimaryTwo{
+    height: 30px;
+    width: 170px;
+  }
+  .bgPrimaryThree{
+    height: 30px;
+    width: 288px;
+  }
+  .bgPrimaryFour{
+    height: 30px;
+    width: 363px;
+  }
+  .bgPrimaryFive{
+    width: 730px;
+    height: 30px;
+  }
+  .boatDiv{
+    margin-top: 12rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .customHeading{
+    font-size: 58px;
+    letter-spacing: 0px;
+  }
+  .boatDiv{
+    margin-top: 3rem;
+  }
+  .bgPrimaryOne{
+    height: 20px;
+    width: 14px;
+  }
+  .bgPrimaryTwo{
+    height: 20px;
+    width: 65px;
+  }
+  .bgPrimaryThree{
+    height: 20px;
+    width: 128px;
+  }
+  .bgPrimaryFour{
+    height: 20px;
+    width: 160px;
+  }
+  .bgPrimaryFive{
+    width: 233px;
+    height: 20px;
+  }
+  .customImage{
+    margin-left: 8px;
+    height: 20px;
+  }
+}

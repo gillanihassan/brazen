@@ -36,16 +36,19 @@ function MysteryShips() {
       {/* Title & Scroll Section */}
       <Container fluid className="">
         <Row className="align-items-center mb-5">
-          <Col md={8} className="mt-5">
+          <Col xs={10} sm={10} md={8} className="mt-5">
             <h1 className={`${styles.customHeading}`}>
               RUSSIA’S CORAL <br /> ENERGY OPERATION
             </h1>
           </Col>
-          <Col md={4} className="text-end mt-5 ">
-            <div className="mt-5">
-              <span className={`${styles.customSpan}`}>SCROLL DOWN</span>
-              <Image src={arrowImage} className={`${styles.arrowImage}`} />
-            </div>
+          <Col
+            xs={2}
+            sm={2}
+            md={4}
+            className="text-end mt-5 d-flex align-items-center justify-content-end"
+          >
+            <p className={`mt-5 ${styles.customSpan}`}>SCROLL DOWN</p>
+            <Image src={arrowImage} className={`mt-5 ${styles.arrowImage}`} />
           </Col>
         </Row>
       </Container>
