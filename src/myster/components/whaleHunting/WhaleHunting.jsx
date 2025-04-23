@@ -9,7 +9,7 @@ import boatFive from "../../../assets/images/whale/boatFive.png";
 
 function WhaleHunting() {
   return (
-    <Container fluid className={`p-4 ${styles.mainDiv}`}>
+    <Container fluid className={`p-4 py-5 ${styles.mainDiv}`}>
       <Row>
         {/* Left Column */}
         <Col md={7} className="p-3 ">

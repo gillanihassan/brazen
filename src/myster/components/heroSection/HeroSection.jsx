@@ -18,12 +18,20 @@ function MysteryShips() {
     <div className={`${styles.mainContainer}`}>
       {/* Navbar */}
       <Navbar expand="" className={styles.customNavbar}>
-        <Container className="d-flex justify-content-center align-items-center">
-          <div className=""></div> {/* Empty left space */}
-          <Navbar.Brand href="#" className={`mx-auto ${styles.customBrand}`}>
+        <Container
+          fluid
+          className="px-5 d-flex justify-content-between align-items-center position-relative"
+        >
+          {/* Centered Brand */}
+          <Navbar.Brand
+            href="#"
+            className={`position-absolute start-50 translate-middle-x ${styles.customBrand}`}
+          >
             MYSTERY SHIPS
           </Navbar.Brand>
-          <div className="w-33 d-flex justify-content-end">
+
+          {/* Toggle on the right */}
+          <div className="ms-auto">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
           </div>
         </Container>
@@ -47,8 +55,8 @@ function MysteryShips() {
             md={4}
             className="text-end mt-5 d-flex align-items-center justify-content-end"
           >
-            <p className={`mt-5 ${styles.customSpan}`}>SCROLL DOWN</p>
-            <Image src={arrowImage} className={`mt-5 ${styles.arrowImage}`} />
+            <p className={`${styles.customSpan}`}>SCROLL DOWN</p>
+            <Image src={arrowImage} className={`${styles.arrowImage}`} />
           </Col>
         </Row>
       </Container>

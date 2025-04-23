@@ -7,18 +7,19 @@
   font-weight: 500;
   color: #1E1C1D;
   letter-spacing: -5px;
+  line-height: 114%;
 }
 .customHeadingTwo{
   font-size: 85px;
   font-weight: 500;
   color: #376BD1;
-  margin-top: 48px;
+  margin-top: 18px;
 }
 .customHeadingThree{
   font-size: 75px;
   font-weight: 500;
   color: #376BD1;
-  margin-top: 48px;
+  /* margin-top: 48px; */
 }
 .customPara{
   max-width: 405px;
@@ -26,6 +27,7 @@
   margin-left: 3rem;
   font-size: 18px;
   font-weight: 500;
+  line-height: 91%;
 }
 .customDiv{
   margin-top: 11.25rem;

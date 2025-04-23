@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "ChampionHTF";
+  src: url("./assets/font/ChampionHTF.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CasagrandeAntifascista";
+  src: url("./assets/font/CasagrandeAntifascista-Regular_0.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

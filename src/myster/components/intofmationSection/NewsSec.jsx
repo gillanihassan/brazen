@@ -9,7 +9,7 @@ function NewsSec() {
       <Row>
         <Col
           sm={12}
-          md={6}
+          md={7}
           className="d-flex flex-column justify-content-center mt-5"
         >
           <p className={`${styles.topPara}`}>
@@ -29,14 +29,10 @@ function NewsSec() {
         </Col>
         <Col
           sm={12}
-          md={6}
+          md={5}
           className="d-flex d-md-block align-items-center justify-content-center"
         >
-          <Image
-            src={NewsImage}
-            fluid
-            className={`${styles.customImage} respon`}
-          />
+          <Image src={NewsImage} fluid className={`${styles.customImage} `} />
         </Col>
       </Row>
     </Container>

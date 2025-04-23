@@ -11,23 +11,26 @@
 .customBrand{
   color: #1E1C1D;
   font-size: 30px;
-  font-weight: 700;;
+  font-weight: 700;
 }
 .customHeading{
   font-size: 100px;
   font-weight: 500;
   color: #D9D9D9;
   line-height: 7rem;
+  
 }
 .customSpan{
   color: #1E1C1D;
   font-size: 20px;
   font-weight: 700;
   margin-right: 20px;
+  margin-top: 9rem;
 }
 .arrowImage{
   width: 77px;
   height: 77px;
+  margin-top: 9rem;
 }
 .heroImage{
   height: 704px;
