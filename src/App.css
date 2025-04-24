@@ -1,15 +1,11 @@
-@font-face {
-  font-family: "ChampionHTF";
-  src: url("./assets/font/ChampionHTF.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+.bebas-font {
+  font-family: 'Bebas Neue', sans-serif;
 }
-
-@font-face {
-  font-family: "CasagrandeAntifascista";
-  src: url("./assets/font/CasagrandeAntifascista-Regular_0.ttf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+}
+.staatliches-font {
+  font-family: 'Staatliches', sans-serif;
 }
 
 /* #root {

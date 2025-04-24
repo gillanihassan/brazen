@@ -8,7 +8,7 @@ const CoralRoots = () => {
     <Container fluid className={`p-4 ${styles.mainContainer}`}>
       <Row>
         <h1 className={`${styles.customHeading}`}>
-          CORAL’ <br /> ROOTS
+          CORAL’S <br /> ROOTS
         </h1>
       </Row>
 

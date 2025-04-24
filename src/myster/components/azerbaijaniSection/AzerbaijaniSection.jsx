@@ -20,20 +20,22 @@ const AzerbaijaniSection = () => {
         <Row className="mt-4 align-items-start">
           {/* Left - Profiles */}
           <Col md={6}>
-            <div className="d-flex align-items-center mb-3">
-              <Image src={imageOne} className="me-4" />
+            <div className="d-flex align-items-center">
+              <Image src={imageOne} className={`me-4 ${styles.imageOne}`} />
               <h3 className={` ${styles.customHeadingTwo}`}>TALAT SAFAROV</h3>
             </div>
 
-            <div className="d-flex align-items-center">
-              <Image src={imageTwo} className="me-4" />
+            <div
+              className={`d-flex align-items-center ${styles.secondImageDiv}`}
+            >
+              <Image src={imageTwo} className={`me-4 ${styles.imageTwo}`} />
               <h3 className={` ${styles.customHeadingThree}`}>AHMED KARIMOV</h3>
             </div>
           </Col>
 
           {/* Right - Paragraph */}
           <Col md={6}>
-            <p className={`${styles.customPara}`}>
+            <p className={` ${styles.customPara}`}>
               The company was just one cog in their enormous, well-rigged
               machine, designed to make sure that Russia’s oil industry could
               keep on running smoothly as it waged war on Ukraine.

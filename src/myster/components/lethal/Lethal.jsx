@@ -7,20 +7,19 @@ const Lethal = () => {
   return (
     <Container fluid className={`p-3 ${styles.customContainer}`}>
       {/* Heading */}
-      <div style={{ marginBottom: "50px", marginTop: "1.5rem" }}>
+      <div style={{ marginBottom: "20px", marginTop: "1.5rem" }}>
         <h1 className={`${styles.customHeading}`}>
-          A LETHAL <br /> MO<span style={{ fontStyle: "italic" }}>S</span>
-          QUITO <br /> BITE{" "}
+          A LETHA <br /> MOSQUITO <br /> BITE{" "}
         </h1>
       </div>
 
       {/* Row with image + text */}
-      <Row className="align-items-center ">
+      <Row className="align-items-center">
         <Col md={6}>
           <Image src={shipImage} fluid />
         </Col>
         <Col md={6} className="d-flex justify-content-end">
-          <p className={`${styles.customPara}`}>
+          <p className={`px-5 ${styles.customPara}`}>
             Meanwhile Coral seemed to be moving money between its own companies.
             In January 2023, the company asked Petrokim’s Turkish bank account —
             the company also named Volition and affiliated with Coral — to

@@ -6,17 +6,20 @@
   height: 278px;
 }
 .paraDiv{
-  margin-top: 2.5rem;
+  margin-top: 4.5rem;
 }
 .customPara{
+  font-family: 'Roboto';
   color: #1E1C1D;
   font-size: 15px;
   font-weight: 400;
+  line-height: 114%;
+  letter-spacing: 0%;
   max-width: 483px;
 }
 .mapOne{
-  width: 319px;
-  height: 490px;
+  width: 908px;
+  height: 534px;
   margin-top: 3rem;
 }
 .mapDivOne{
@@ -37,28 +40,32 @@
 .headingOne{
   color: #E56028;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: -2px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 0%;
+  font-family: 'Bebas Neue';
 }
 .headingTwo{
   color: #376BD1;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: -2px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 0%;
+  font-family: 'Bebas Neue';
 }
 .paraOne{
   color: #1E1C1D;
   font-size: 18px;
   font-weight: 500;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .paraTwo{
   color: #1E1C1D;
   font-size: 18px;
   font-weight: 500;
-  margin-top: 3.3rem;
+  margin-top: 0.7rem;
 }
 
 @media (max-width: 1200px) {

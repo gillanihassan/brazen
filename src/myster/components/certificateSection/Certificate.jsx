@@ -13,7 +13,7 @@ const CertificateSection = () => {
               ACCORDING TO A CERTIFICATE <br /> OBTAINED BY WHALE HUNTING
             </h1>
           </Col>
-          <Row className="mt-5">
+          <Row className="mt-4">
             <p className={`${styles.paraOne}`}>
               Just two weeks before the rebranding, Pura Vida, Coral’s parent
               company...
@@ -27,9 +27,10 @@ const CertificateSection = () => {
           <Col md={6}></Col>
 
           {/* Right Column */}
-          <Col md={6} className="">
+          <Col md={6} className="d-flex flex-column align-items-center">
             <h1 className={`${styles.customHeadingTwo}`}>85%</h1>
-            <p className={`${styles.customParaTwo}`}>
+
+            <p className={` ${styles.customParaTwo}`}>
               ...became the 85% shareholder of Novus Middle East, another
               company affiliated with Coral and was known to be Garayev’s
               holding company.

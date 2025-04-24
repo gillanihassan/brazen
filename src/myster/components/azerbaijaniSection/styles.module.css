@@ -3,34 +3,54 @@
   background-color: #D9D9D9;
 }
 .customHeadingOne{
-  font-size: 90px;
+  font-family: 'Bebas Neue';
+  font-size: 130px;
   font-weight: 500;
   color: #1E1C1D;
-  letter-spacing: -5px;
-  line-height: 114%;
+  line-height: 105%;
+  letter-spacing: 0%;
 }
 .customHeadingTwo{
-  font-size: 85px;
+  font-family: 'Bebas Neue';
+  font-size: 130px;
   font-weight: 500;
   color: #376BD1;
+  letter-spacing: 0%;
+  line-height: 114%;
   margin-top: 18px;
 }
 .customHeadingThree{
-  font-size: 75px;
+  font-family: 'Bebas Neue';
+  font-size: 130px;
   font-weight: 500;
   color: #376BD1;
-  /* margin-top: 48px; */
+  letter-spacing: 0%;
+  line-height: 114%;
 }
 .customPara{
-  max-width: 405px;
-  margin-top: 10rem;
-  margin-left: 3rem;
+  font-family: 'Roboto';
+  max-width: 395px;
   font-size: 18px;
   font-weight: 500;
-  line-height: 91%;
+  color: #1E1C1D;
+  line-height: 114.99999999999999%;
+  margin-top: 12rem;
 }
 .customDiv{
   margin-top: 11.25rem;
+}
+.imageOne{
+  width: auto;
+  height: 120px;
+  border: 0.5px solid black;
+}
+.imageTwo{
+  width: auto;
+  height: 118px;
+  border: 0.5px solid black;
+}
+.secondImageDiv{
+  margin-top: -1rem;
 }
 
 @media (max-width: 1400px) {

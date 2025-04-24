@@ -3,10 +3,12 @@
   background-color: #376BD1;
 }
 .customHeading{
-  font-size: 200px;
   color: #1E1C1D;
-  line-height: 11rem;
-  font-family: "CasagrandeAntifascista";
+  font-family: "Staatliches";
+  font-size: 200px;
+  font-weight: 500;
+  line-height: 91%;
+  letter-spacing: 6%;
 }
 .customImage{
   max-height: 379px;

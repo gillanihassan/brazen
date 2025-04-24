@@ -8,7 +8,7 @@ const Rebranding = () => {
     <div className={`${styles.mainContainer}`}>
       <Container fluid className="p-4">
         {/* Heading Row */}
-        <Row className="mt-5">
+        <Row className="mt-2">
           <Col md={12}>
             <h1 className={`${styles.customHeading}`}>
               THE

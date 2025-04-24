@@ -7,7 +7,7 @@ import imageThree from "../../../assets/images/affiliate/imageThree.png";
 
 const AffiliateCompany = () => {
   return (
-    <Container fluid className={`p-4 ${styles.mainContainer}`}>
+    <Container fluid className={`${styles.mainContainer}`}>
       <Row>
         {/* LEFT SIDE TEXT */}
         <Col sm={12} md={12} lg={10} xl={10} xxl={10}>
@@ -27,8 +27,18 @@ const AffiliateCompany = () => {
             this includes Coral Energy and...
           </p>
 
-          <h1 className={`text-uppercase ${styles.customHeading}`}>
-            Five of its affiliated companies.
+          <h1 className={` text-uppercase ${styles.customHeading}`}>
+            <span
+              style={{
+                borderBottom: "2px solid  #D9D9D9",
+              }}
+            >
+              Five of its affiliated
+            </span>
+            <br />
+            <span style={{ borderBottom: "2px solid  #D9D9D9" }}>
+              companies.
+            </span>
           </h1>
         </Col>
 

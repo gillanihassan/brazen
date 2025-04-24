@@ -3,18 +3,25 @@
   background-color: #D9D9D9;
 }
 .customHeading{
+  font-family: 'Bebas Neue';
   color: #1E1C1D;
-  font-size: 100px;
+  font-size: 130px;
   font-weight: 500;
-  line-height: 114%;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 0.7rem;
 }
 .customParaDiv{
-  margin-top: 200px;
+  margin-top: 180px;
 }
 .customPara{
+  font-family: 'Roboto';
   max-width: 483px;
   font-size: 15px;
   font-weight: 400;
+  list-style: 104%;
+  letter-spacing: 0%;
+  color: #1E1C1D;
 }
 .customImage{
   width: 696px;

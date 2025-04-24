@@ -34,7 +34,7 @@ const IndirectBusiness = () => {
           <Col md={8}>
             <h1 className={`${styles.customHeading}`}>
               INDIRECT <br />
-              BUSI<span style={{ fontStyle: "italic" }}>NESS</span>
+              BUSINE<span style={{ fontStyle: "italic" }}>SS</span>
             </h1>
           </Col>
           <Col

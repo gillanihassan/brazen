@@ -2,22 +2,29 @@
   background-color: #1E1C1D;
 }
 .topPara{
-  font-size: 42px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 60px;
   font-weight: 500;
   color: #D9D9D9;
   max-width: 950px;
-  margin-top: 15rem;
+  margin-top: 13rem;
+  line-height: 114%;
+  letter-spacing: 0%;
 }
 .customParaOne{
+  font-family: 'Roboto';
   font-size: 18px;
   font-weight: 700;
   color: #376BD1;
 }
 .customParaTwo{
+  font-family: 'Roboto';
   font-size: 18px;
   font-weight: 700;
   color:#D9D9D9;
   max-width: 487px;
+  line-height: 114%;
+  letter-spacing: 0%;
 }
 
 @media only screen and (max-width: 1400px) {

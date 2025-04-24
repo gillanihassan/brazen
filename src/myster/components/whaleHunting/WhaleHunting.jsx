@@ -9,7 +9,7 @@ import boatFive from "../../../assets/images/whale/boatFive.png";
 
 function WhaleHunting() {
   return (
-    <Container fluid className={`p-4 py-5 ${styles.mainDiv}`}>
+    <Container fluid className={`p-4 ${styles.mainDiv}`}>
       <Row>
         {/* Left Column */}
         <Col md={7} className="p-3 ">
@@ -46,7 +46,7 @@ function WhaleHunting() {
 
         {/* Right Column */}
         <Col md={5} className=" d-flex flex-column align-items-end">
-          <div style={{ maxWidth: "555px" }}>
+          <div className={`${styles.paraDiv}`} style={{ maxWidth: "520px" }}>
             <p className={`${styles.customPara}`}>
               Whale Hunting has also viewed dozens of internal documents which
               show how Coral and its key players have kept the Russian oil

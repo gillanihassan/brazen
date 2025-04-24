@@ -18,7 +18,7 @@ function NewsSec() {
             ESTABLISHED NORD AXIS, A NEW <br />
             SHIPPING COMPANY, IN HONG KONG.
           </p>
-          <p className={`mt-3 ${styles.customParaOne}`}>
+          <p className={`mt-4 ${styles.customParaOne}`}>
             Coincidental timing? Maybe.
           </p>
           <p className={`${styles.customParaTwo}`}>

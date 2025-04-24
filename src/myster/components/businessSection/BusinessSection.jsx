@@ -14,23 +14,23 @@ function BusinessSection() {
         </h2>
       </Row>
 
-      <Row className="align-items-center mt-2">
+      <Row className={`align-items-center p-3 ${styles.customRow}`}>
         <Col xs="auto" className="d-flex align-items-center">
           <Image src={Tahir} className={styles.imageOne} />
-          <p className={`text-uppercase mb-0 ms-2 ${styles.paraOne}`}>
+          <p className={`text-uppercase ms-3 ${styles.paraOne}`}>
             Tahir Garayev <span className={styles.andColor}>And</span>
           </p>
         </Col>
 
         <Col xs="auto" className="d-flex align-items-center">
           <Image src={Etibar} className={styles.imageTwo} />
-          <p className={`text-uppercase mb-0 ms-2 ${styles.paraTwo}`}>
+          <p className={`text-uppercase  ms-3 ${styles.paraTwo}`}>
             Etibar Eyyub.
           </p>
         </Col>
       </Row>
 
-      <Row className="mt-5">
+      <Row className="mt-4">
         <Col md={8}>
           <p className={`${styles.customPara}`}>
             The company was just one cog in their enormous, well-rigged machine,

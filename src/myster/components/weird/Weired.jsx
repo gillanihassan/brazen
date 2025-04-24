@@ -35,7 +35,7 @@ const Weird = () => {
         {/* Heading */}
 
         {/* Text + Image */}
-        <Row className="align-items-center">
+        <Row className={`align-items-center ${styles.customRowPara}`}>
           <Col md={7}>
             <p className={`${styles.customPara}`}>
               Russian trader Ilya Pereguda was mysteriously struck down by
@@ -72,12 +72,12 @@ const Weird = () => {
           </Col>
 
           {/* Image Column */}
-          <Col md={5}>
+          <Col md={5} className="d-flex justify-content-end align-items-end">
             <Image
               src={WeiredImage}
               alt="City skyline"
               fluid
-              className={`${styles.customImageTwo}`}
+              className={` ${styles.customImageTwo}`}
             />
           </Col>
         </Row>

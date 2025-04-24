@@ -1,7 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import person from "../../../assets/images/trade/person.png";
 import mapOne from "../../../assets/images/trade/mapOne.png";
-import mapTwo from "../../../assets/images/trade/mapTwo.png";
 import styles from "./styles.module.css";
 
 export default function Trade() {
@@ -12,7 +11,11 @@ export default function Trade() {
         <Row>
           {/* Column 1 */}
           <Col md={4}>
-            <Image src={person} alt="Person" className={`${styles.imageOne}`} />
+            <Image
+              src={person}
+              alt="Person"
+              className={`mt-5 ${styles.imageOne}`}
+            />
             <div className={`${styles.paraDiv}`}>
               <p className={`${styles.customPara}`}>
                 But later in 2023, as Garayev was holding meetings with Rosneft
@@ -49,30 +52,32 @@ export default function Trade() {
           </Col>
 
           {/* Column 2 */}
-          <Col md={4}>
-            <Image src={mapOne} alt="Map" className={`${styles.mapOne}`} />
-
-            <div className={`${styles.mapDivOne}`}>
-              <h2 className={`${styles.headingOne}`}>
-                russian ports of origin
-              </h2>
-              <p className={`${styles.paraOne}`}>
-                Primorsk | Tuapse | Ust Luga
-              </p>
-            </div>
-          </Col>
-
-          <Col md={4}>
-            <Image src={mapTwo} alt="Map" className={`${styles.mapTwo}`} />
-
-            <div className={`${styles.mapDivTwo}`}>
-              <h2 className={`${styles.headingTwo}`}>
-                COUNTRIES OF DESTINATION
-              </h2>
-              <p className={`${styles.paraTwo}`}>
-                India | Greeece | Ghana <br /> China | Saudi Arabia | Benin
-              </p>
-            </div>
+          <Col md={8} className="px-5">
+            <Row className="px-5">
+              <Image src={mapOne} alt="Map" className={`${styles.mapOne}`} />
+            </Row>
+            <Row>
+              <Col md={6}>
+                <div className={`${styles.mapDivOne}`}>
+                  <h2 className={`${styles.headingOne}`}>
+                    russian ports of origin
+                  </h2>
+                  <p className={`${styles.paraOne}`}>
+                    Primorsk | Tuapse | Ust Luga
+                  </p>
+                </div>
+              </Col>
+              <Col md={6}>
+                <div className={`${styles.mapDivTwo}`}>
+                  <h2 className={`${styles.headingTwo}`}>
+                    COUNTRIES OF DESTINATION
+                  </h2>
+                  <p className={`${styles.paraTwo}`}>
+                    India | Greeece | Ghana <br /> China | Saudi Arabia | Benin
+                  </p>
+                </div>
+              </Col>
+            </Row>
           </Col>
 
           {/* Column 3 */}

@@ -10,7 +10,7 @@ const OilStatsSection = () => {
           <h1 className={`${styles.customHeadingOne}`}>80%</h1>
 
           <p
-            className={`text-uppercase  ${styles.customParaOne} mx-auto`}
+            className={`text-uppercase  ${styles.customPara} mx-auto`}
             style={{ maxWidth: "50rem" }}
           >
             Of Russian Oil Is Transported <br /> By Shadow Fleets
@@ -20,7 +20,7 @@ const OilStatsSection = () => {
         <Col md={6} className={`${styles.columnRight}`}>
           <h1 className={`${styles.customHeadingOne}`}>$420</h1>
           <p
-            className={`text-uppercase  ${styles.customParaTwo} mx-auto`}
+            className={`text-uppercase  ${styles.customPara} mx-auto`}
             style={{ maxWidth: "50rem" }}
           >
             Billion Earned By Russia From Oil <br /> And Gas Exports During The

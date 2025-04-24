@@ -6,7 +6,9 @@
   font-size: 100px;
   font-weight: 500;
   color: #376BD1;
-  letter-spacing: -3px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 0%;
+  font-family: 'Bebas Neue';
 }
 .customPara{
   color: #D9D9D9;
@@ -15,5 +17,7 @@
   max-width: 735px;
   text-align: center;
   margin: auto;
-  line-height: 1.4rem;
+  line-height: 114.99999999999999%;
+  letter-spacing: 0%;
+  font-family: 'Roboto';
 }
